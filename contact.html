@@ -14,16 +14,16 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-xs-3 col-sm-6 col-md-9"></div>
+                <!-- <div class="col-xs-3 col-sm-6 col-md-9"></div> -->
                 <a class="btn btn-danger btn-lg" href="#">Michael Veiga</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" href="index.html">About</a>
                         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
@@ -35,32 +35,31 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" style="background-color: white; margin-top: 30px;">
         <div class="row">
-            <div class="col-xs-2 col-sm-4 col-md-6">
-                <form>
-                    <div class="form-header">
-                        <h4>Contact</h4>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Full Name</label>
-                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email Address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-danger">Submit</button>
-                </form>
+            <div class="col-md-12">
+                <div class="form-header">
+                    <h1>Contact</h1>
+                </div>
             </div>
         </div>
+
+        <form>
+            <div class="form-group" <label for="exampleFormControlInput1">Full Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email Address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
     </div>
-    </div>
+
 
 </body>
 

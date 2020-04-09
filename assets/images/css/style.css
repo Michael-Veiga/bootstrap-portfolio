@@ -2,26 +2,44 @@
     font-style: oblique;
 }
 
-.navbar-brand {
-    padding-left: 10px;
-    padding-right: 10px;
-       
-}
-
-
 body {
-    background-color: lightgrey;
+    background-image: url(https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+    background-size: cover;
+    background-repeat: no repeat;
+    
+    
 }
 
 .card {
     background-color: white;
     border: 5px color whitesmoke;
     margin-top: 30px;
+    
 
 }
 
-.card-header {
+.pic-box {
+    position: relative;
+}
+
+.pic-text {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    background-color: rgb(182, 61, 61);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
+.page-header {
     color: crimson;
+    border-bottom: 3px color black solid;
+    
+    
     
 }
 
@@ -41,8 +59,32 @@ body {
     background-color: white;
          
 }
+
+.jumbotron {
+    margin: 30px;
+}
  
+h4 {
+    border-bottom: 3x black solid;
+    background-color: white;
+    margin-top: 30px;
+      
+    
+}
 
+.card-deck {
+    background-color: white;
+}
 
+.card-header {
+    color: crimson;
+    border-bottom: 2px black solid;
+    padding: 5px;
+    background-color: ;
+}
 
+.caption {
+    background-color: white;
+    
+}
 
