@@ -2,6 +2,18 @@
     font-style: oblique;
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        padding:0;
+        margin:0;
+      }
+  
+      body {
+        padding:0;
+      }
+       
+  }
+
 body {
     background-image: url(https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
     background-size: cover;
@@ -37,10 +49,7 @@ body {
 
 .page-header {
     color: crimson;
-    border-bottom: 3px color black solid;
-    
-    
-    
+            
 }
 
 .form-group {
@@ -64,9 +73,9 @@ body {
     margin: 30px;
 }
  
-h4 {
-    border-bottom: 3x black solid;
-    background-color: white;
+h1 {
+    border-bottom: 3px crimson solid;
+    
     margin-top: 30px;
       
     
@@ -76,15 +85,13 @@ h4 {
     background-color: white;
 }
 
-.card-header {
-    color: crimson;
-    border-bottom: 2px black solid;
-    padding: 5px;
-    background-color: ;
-}
 
 .caption {
     background-color: white;
     
 }
 
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
